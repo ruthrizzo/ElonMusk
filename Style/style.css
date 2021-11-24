@@ -1,0 +1,125 @@
+* {
+font-family: Lucida Sans;
+margin:0 auto;
+text-align: center;
+}
+
+canvas {
+    margin: 0px auto;
+    border-radius: 15px;
+    background-color: lightgrey;
+    opacity: 1;
+    margin-top: 50px;
+}
+
+body {
+    background-color:midnightblue;
+    background-image: url("../images/espacio2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vw;
+}
+
+.start-page {
+    display: flex;
+    text-align: center;
+    flex-flow:column;
+}
+
+h2 {
+    font-size: 75px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(164, 164, 173);
+    margin-bottom: -15px;
+    text-shadow: oldlace;
+}
+
+h2 a{
+    text-decoration: snow;
+    color: white;
+}
+
+h2 a:hover {
+    color: blueviolet;
+    text-decoration: darkblue;
+}
+
+body button {
+    font-size: 25px;
+    background-image: url("../images/elon musk.png");
+    background-size: 350px;
+    background-position: center;
+    color: whitesmoke;
+    padding: 15px 45px;
+    border:0;
+    box-shadow:0;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.elon-spinning{
+    width:50%;
+    padding-bottom:20px;
+}
+
+.instructions {
+    flex-flow: column;
+    width:30%;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color:mediumblue;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.instructions p {
+    background-color:plum;
+    font-size: 10px;
+    margin-top: - 20px;
+}
+
+.objective {
+    flex-flow: column;
+    width: 30%;
+    padding: 10px 30px;
+    border-radius: 15%;
+    background-color: springgreen;
+    margin-bottom: 10px;
+}
+
+.objective p {
+    background-color:teal;
+    font-size: 10px;
+    margin-top: -20px;
+}
+
+.space {
+    width: 10%;
+    background-color:tomato;
+    padding-bottom: 20px;
+}
+
+.tesla {
+    width: 10%;
+    background-color:tomato;
+    padding-bottom: 20px;
+}
+
+.arrows {
+    width: 20%;
+    background-color:yellow;
+    padding-bottom: 20px;
+}
+
+.game-start a{
+    text-decoration: none;
+    color:violet;
+}
+
+.elon-header a{
+    font-size: 90px;
+    font-weight: 700;
+    padding: 30px 0;
+    text-decoration:none;
+}
